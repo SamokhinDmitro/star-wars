@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ProximaNova-Bold';
+
+    src: local('ProximaNova-Bold'),
+            url('https://nomail.com.ua/files/eot/e83bfa80b23aa88b149def5b37a5bf9b.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/e83bfa80b23aa88b149def5b37a5bf9b.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/e83bfa80b23aa88b149def5b37a5bf9b.woff2') format('woff2');
+}
+
