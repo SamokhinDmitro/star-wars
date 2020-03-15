@@ -1,0 +1,54 @@
+@media (max-width: 600px)
+  .header
+    padding-top: 70px
+    flex-direction: column
+    align-items: flex-start
+    &-logo
+      margin-bottom: 20px
+  .hero
+    padding-top: 60px
+    &__subtitle
+      font-size: 30px
+    &__title
+      font-size: 36px
+    &__descr
+      font-size: 16px
+    &__date
+      font-size: 22px
+      margin-bottom: 40px
+
+@media (max-width: 400px)
+  .header
+    &-nav
+      display: flex
+      flex-direction: column
+      &__link
+        margin-right: 0
+        margin-bottom: 10px
+        font-size: 14px
+        &:last-child
+          margin-bottom: 0
+
+  .button
+    padding: 20px 25px
+  .hero
+    padding-bottom: 20px
+    &__subtitle
+      font-size: 26px
+    &__title
+      font-size: 30px
+    &__date
+      font-size: 20px
+    &__button
+      &::before
+        display: none
+      &::after
+        display: none
+  .episodes
+    padding: 25px 0
+  .slider
+    &__item
+      width: 230px
+
+
+

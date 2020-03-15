@@ -1,0 +1,35 @@
+*
+  box-sizing: border-box
+  &::after,&::before
+    box-sizing: border-box
+
+body
+  background: #040506 url('../img/main-bg.jpg') top right -170% no-repeat
+  background-size: contain
+  background-attachment: fixed
+  color: #fff
+  font-family: 'Roboto', sans-serif
+  font-size: 18px
+  font-weight: 400
+
+.container
+  max-width: 1060px
+  width: 90%
+  margin: 0 auto
+
+.button
+  display: inline-block
+  padding: 24px 34px
+  text-decoration: none
+  font-size: 14px
+  text-transform: uppercase
+  border-radius: 300px
+  border: transparent
+  color: #fff
+  background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%)
+
+@import "reset"
+@import "header"
+@import "hero"
+@import "episodes"
+@import "media"
